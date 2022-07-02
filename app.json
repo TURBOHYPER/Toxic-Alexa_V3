@@ -1,0 +1,24 @@
+{
+  "name": "Toxic-Alexa_V3",
+  "description": "whatsapp md bot build with nodejs",
+  "repository": "https://github.com/TURBOHYPER/Toxic-Alexa_V3",
+  "logo": "https://telegra.ph/file/f2bd807ba0793444fbe09.jpg",
+  "keywords": ["nodejs", "toxic-alexa_v3", "whatsapp bot", "whatsapp automation", "multi device"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ],
+   "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
