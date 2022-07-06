@@ -28,7 +28,7 @@ Project created by <a href="https://github.com/TURBOHYPER">Turbo</a> to make it 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TURBOHYPER/Toxic-Alexa_V3) 
 <br>
         
-1. Click [SCAN](https://replit.com/@TURBOHYPER/Toxic-Alexa_V3?v=1) and scan QR through Whatsapp Linked Devices Option in Your whatsapp App.
+1. Click [SCAN](https://replit.com/@TURBOHYPER/Toxic-AlexaV3?output%20only=1&lite=1#index.js) and scan QR through Whatsapp Linked Devices Option in Your whatsapp App.
 2. You will get a long text that needs after 4th step (ALEXA_QR_CODE).
 3. If You don't have a account in [Heroku](https://signup.heroku.com/), Create a account.
 4. Click [FORK](https://github.com/TURBOHYPER/Toxic-Alexa_V3/fork)
