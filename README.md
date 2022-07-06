@@ -32,7 +32,7 @@ Project created by <a href="https://github.com/TURBOHYPER">Turbo</a> to make it 
 2. You will get a long text that needs after 4th step (ALEXA_QR_CODE).
 3. If You don't have a account in [Heroku](https://signup.heroku.com/), Create a account.
 4. Click [FORK](https://github.com/TURBOHYPER/Toxic-Alexa_V3/fork)
-5. Paste your qr code [HERE](https://github.com/TURBOHYPER/Toxic-Alexa_V3/blob/main/session.data.json) that you received in your whatsapp message
+5. Paste your qr code [HERE](https://github.com/TURBOHYPER/Toxic-Alexa_V3/blob/main/session.json) that you received in your whatsapp message
 6. Now Deploy Using The Button Below
    <br>
 # Contact for help:
