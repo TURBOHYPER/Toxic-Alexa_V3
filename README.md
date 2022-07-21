@@ -40,18 +40,19 @@ Project created by <a href="https://github.com/TURBOHYPER">Turbo</a> to make it 
  
 ### The Hard Method
 ```js
+apt update
+apt upgrade
 pkg update && pkg upgrade
-pkg install git
-pkg install nodejs
-pkg install ffmpeg
-pkg install imagemagick
-pkg install yarn
+pkg install bash
+pkg install libwebp
+pkg install git -y
+pkg install nodejs -y 
+pkg install ffmpeg -y 
+pkg install wget
+pkg install imagemagick -y
 git clone https://github.com/TURBOHYPER/Toxic-Alexa_V3
 cd Toxic-Alexa_V3
-yarn
-npm i -g typescript
-tsc -p ./node_modules/@adiwajshing/baileys
-node .
+npm start
 ```
       
   
@@ -60,9 +61,7 @@ node .
 SETUP
 git clone https://github.com/TURBOHYPER/Toxic-Alexa_V3
 cd Toxic-Alexa_V3
-npm install
-npm update
-npm index
+npm start
 ```
 
 ----
