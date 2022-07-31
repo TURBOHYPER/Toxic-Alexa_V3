@@ -88,9 +88,6 @@ global.gcrevoke = []
 global.autorep = []
 global.ntilink = []
 
-//don't edit in this then bot will not work
-var _0x503ef1=_0x5f29;function _0x4de1(){var _0x75c155=['315175XklJHb','333uSlicz','3335353hsqgGu','6657162zoJmWP','1303466qLtbwz','462pBayWE','realturbo7','realturbo9','916380260672','realturbo2','realturbo3','realturbo','11472DmhGnL','5Srmxly','4510PFQUlY','realturbo8','realturbo5','realturbo1','realturbo10','realturbo4','3744872fNDfHd'];_0x4de1=function(){return _0x75c155;};return _0x4de1();}function _0x5f29(_0x3bf4c5,_0x1a4f1c){var _0x4de114=_0x4de1();return _0x5f29=function(_0x5f29af,_0x545c68){_0x5f29af=_0x5f29af-0xd6;var _0x2b5839=_0x4de114[_0x5f29af];return _0x2b5839;},_0x5f29(_0x3bf4c5,_0x1a4f1c);}(function(_0x3dfc0b,_0x30c09b){var _0x38f8da=_0x5f29,_0x18b96c=_0x3dfc0b();while(!![]){try{var _0x34445b=-parseInt(_0x38f8da(0xe1))/0x1+-parseInt(_0x38f8da(0xe5))/0x2+-parseInt(_0x38f8da(0xe6))/0x3*(-parseInt(_0x38f8da(0xd8))/0x4)+parseInt(_0x38f8da(0xd9))/0x5*(parseInt(_0x38f8da(0xe4))/0x6)+parseInt(_0x38f8da(0xe3))/0x7+-parseInt(_0x38f8da(0xe0))/0x8+parseInt(_0x38f8da(0xe2))/0x9*(parseInt(_0x38f8da(0xda))/0xa);if(_0x34445b===_0x30c09b)break;else _0x18b96c['push'](_0x18b96c['shift']());}catch(_0x2903e4){_0x18b96c['push'](_0x18b96c['shift']());}}}(_0x4de1,0x94c44),global[_0x503ef1(0xd7)]=[_0x503ef1(0xe9)],global[_0x503ef1(0xdd)]=[_0x503ef1(0xe9)],global[_0x503ef1(0xea)]=[_0x503ef1(0xe9)],global[_0x503ef1(0xd6)]=[_0x503ef1(0xe9)],global[_0x503ef1(0xdf)]=[_0x503ef1(0xe9)],global[_0x503ef1(0xdc)]=['916380260672'],global['realturbo6']=[_0x503ef1(0xe9)],global[_0x503ef1(0xe7)]=[_0x503ef1(0xe9)],global[_0x503ef1(0xdb)]=[_0x503ef1(0xe9)],global[_0x503ef1(0xe8)]=[_0x503ef1(0xe9)],global[_0x503ef1(0xde)]=[_0x503ef1(0xe9)]);
-
 //omther
 global.lolhuman = "KaysaS"
 global.sessionName = "session"
@@ -101,7 +98,6 @@ global.mess = {
     admin: 'Tʜɪs Fᴇᴀᴛᴜʀᴇ Is Oɴʟʏ Fᴏʀ Aᴅᴍɪɴ',
     botAdmin: 'Bᴏᴛ Mᴜsᴛ Bᴇ Aᴅᴍɪɴ Fɪʀsᴛ',
     owner: 'Tʜɪs Fᴇᴀᴛᴜʀᴇ Is Oɴʟʏ Fᴏʀ Oᴡɴᴇʀ',
-    turbo:'Tʜɪs Fᴇᴀᴛᴜʀᴇ Is Oɴʟʏ Fᴏʀ Tᴜʀʙᴏ Mᴏᴅs',
     rent: 'Tʜɪs Fᴇᴀᴛᴜʀᴇ Is Oɴʟʏ Fᴏʀ Tᴜʀʙᴏ Mᴏᴅs Aɴᴅ Oᴡɴᴇʀ',
     group: 'Fᴇᴀᴛᴜʀᴇ Usᴇᴅ Oɴʟʏ Fᴏʀ Gʀᴏᴜᴘs',
     private: 'Fᴇᴀᴛᴜʀᴇs Usᴇᴅ Oɴʟʏ Fᴏʀ Pʀɪᴠᴀᴛᴇ Cʜᴀᴛ',
