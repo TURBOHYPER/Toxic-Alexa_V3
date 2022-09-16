@@ -4,6 +4,120 @@
   "repository": "https://github.com/TURBOHYPER/Toxic-Alexa_V3",
   "logo": "https://telegra.ph/file/f2bd807ba0793444fbe09.jpg",
   "keywords": ["nodejs", "toxic-alexa_v3", "whatsapp bot", "whatsapp automation", "multi device"],
+  "stack": "container",
+  "addons": [{
+  "plan": "heroku-postgresql"
+  }],
+    "env": {
+      "HEROKU_APP_NAME": {
+        "description": "Heroku app name, same as above entered",
+        "required": true
+      },
+      "HEROKU_API_KEY": {
+        "description": "Heroku account api key, https://dashboard.heroku.com/account",
+        "required": true
+      },
+      "ALIVE_MESSAGE": {
+			"description": "Add a message here which you want to see when typing .alive",
+			"required": true,
+			"value": "Hey Guys Toxic Alexa V3 Is Still Alive"
+		},
+		"OWNER_NAME": {
+			"description": "Add the owner name here and if you want to use the default name then just leave it)",
+			"required": true,
+			"value": "TurboMods"
+		},
+		"OWNER_NUMBER": {
+			"description": "Add the owner number here",
+			"required": true,
+			"value": "916380260672"
+		},
+		"AUTO_TYPING": {
+			"description": "Type true or false",
+			"required": true,
+			"value": "false"
+		},
+		"AUTO_READV2": {
+			"description": "Type true or false",
+			"required": true,
+			"value": "false"
+		},
+		"AUTO_READV3": {
+			"description": "Type true or false",
+			"required": true,
+			"value": "false"
+		},
+		"AVAILABLE": {
+			"description": "Type true or false",
+			"required": true,
+			"value": "false"
+		},
+		"LOCATION": {
+			"description": "Enter Your Location For .owner",
+			"required": true,
+			"value": "false"
+		},
+		"LOGO": {
+			"description": "Enter Your Logo Url",
+			"required": true,
+			"value": "https://telegra.ph/file/a90b046455ab6c7e089e3.jpg"
+		},
+		"BOT_NAME": {
+			"description": "Enter Your Bot Name",
+			"required": true,
+			"value": "Toxic-Alexa_V3"
+		},
+		"PACKNAME": {
+			"description": "Enter Your Name For Sticker Package Name",
+			"required": true,
+			"value": "Turbo Mods"
+		},
+		"THEME_EMOJI": {
+			"description": "Enter A Emoji For Menu And Other Theme",
+			"required": true,
+			"value": "✨"
+		},
+		"REACT_EMOJI": {
+			"description": "Enter A Emoji For Menu React",
+			"required": true,
+			"value": "🇮🇳"
+		},
+		"OWNER_TAG": {
+			"description": "Enter Your Number For Owner Tag",
+			"required": true,
+			"value": "916380260672"
+		},
+		"DOCUMENT1": {
+			"description": "If You Dont known What Is This Then Don't Change This",
+			"required": true,
+			"value": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+		},
+		"DOCUMENT2": {
+			"description": "If You Dont known What Is This Then Don't Change This",
+			"required": true,
+			"value": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+		},
+		"DOCUMENT3": {
+			"description": "If You Dont known What Is This Then Don't Change This",
+			"required": true,
+			"value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+		},
+		"DOCUMENT4": {
+			"description": "If You Dont known What Is This Then Don't Change This",
+			"required": true,
+			"value": "application/zip"
+		},
+		"DOCUMENT5": {
+			"description": "If You Dont known What Is This Then Don't Change This",
+			"required": true,
+			"value": "application/pdf"
+		},
+		"DOCUMENT6": {
+			"description": "If You Dont known What Is This Then Don't Change This",
+			"required": true,
+			"value": "application/vnd.android.package-archive"
+			}
+		},
   "buildpacks": [
     {
       "url": "heroku/nodejs"
